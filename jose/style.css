@@ -1,0 +1,50 @@
+ body {
+            background-color: #1e1e2f;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #00d9ff;
+            font-size: 3em;
+        }
+
+        h2 {
+            color: #ffb347;
+        }
+
+        p {
+            background-color: #2a2a40;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+.barra-superior {
+    display: flex;
+    justify-content: space-between; /* título separado del grupo de botones */
+    align-items: center;
+    background-color: #2a2a40;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Agrupa los botones juntos */
+.botones {
+    display: flex;
+    gap: 10px; /* espacio entre botón y botón */
+}
+.image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;         
+    border-radius: 10px;
+    border: 3px solid #00d9ff;
+    margin: 20px auto;
+    display: block;
+}
